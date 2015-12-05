@@ -1,0 +1,14 @@
+{
+  "name": "svg-awesome",
+  "version": "1.0.0",
+  "description": "A mostly drop-in replacement for Font Awesome using SVGs instead of web fonts",
+  "main": "main.js",
+  "keywords": [
+    "fontawesome",
+    "font",
+    "awesome",
+    "svg"
+  ],
+  "author": "Greg Walker <svg-awesome@darkcooger.net>",
+  "license": "MIT"
+}
