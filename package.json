@@ -12,6 +12,7 @@
     "build": "mkdir -p svgs && mkdir -p css && node build/build.js"
   },
   "author": "Greg Walker <svg-awesome@darkcooger.net>",
+  "repository": "mgwalker/svg-awesome",
   "license": "MIT",
   "devDependencies": {
     "font-awesome": "4.5.0"
