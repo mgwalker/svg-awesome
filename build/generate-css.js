@@ -19,7 +19,7 @@ module.exports = function(glyphs) {
 							return resolve();
 						}
 
-						css += `\n.fa.fa-${glyph.name} {background-image:url('data:image/svg+xml;utf8,${svg.replace(`<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">`, "")}');}`;
+						css += `\n.fa.fa-${glyph.name}{background-image:url('data:image/svg+xml;utf8,${svg.replace(`<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">`, "")}');}`;
 						resolve();
 					});
 				});
