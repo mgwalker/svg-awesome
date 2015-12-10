@@ -42,4 +42,4 @@ With the second file, all the icons are red.  There are still shortcuts to make 
 filter: hue-rotate(220deg);
 ```
 
-Unlike Font Awesome, which is in fact awesome, this doesn't use a web font.  Instead, it uses SVGs as background images.  An SVG in an image or background image effectively lives outside the DOM, so you can't directly set the `stroke` or `fill` properties with your CSS.  That's where the filters come in.
+Unlike Font Awesome, which is in fact awesome, this doesn't use a web font. [Why not?](http://blog.cloudfour.com/seriously-dont-use-icon-fonts/) Instead, it uses SVGs as background images.  An SVG in an image or background image effectively lives outside the DOM, so you can't directly set the `stroke` or `fill` properties with your CSS.  That's where the filters come in.
