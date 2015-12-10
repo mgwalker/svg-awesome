@@ -14,7 +14,7 @@ npm install svg-awesome
 Then add it to your HTML somewhere:
 
 ```html
-<link rel="stylesheet" href="node_modules/svg-awesome/css/svg-awesome-bw.svg">
+<link rel="stylesheet" href="node_modules/svg-awesome/css/svg-awesome-bw.css">
 ```
 
 Now you can use it more or less like Font Awesome!
